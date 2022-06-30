@@ -1,0 +1,78 @@
+/*-----------------
+* [Master Stylesheet]
+*
+* Theme    : WillyWonka
+* Version  : 1.0
+* Author   : sujal
+* 
+------------------*/
+::-webkit-scrollbar{
+    width: 4px;
+    color:orangered;
+}
+::-webkit-scrollbar-thumb {
+    background: orangered; 
+    border-radius: 4px;
+    width: 4px;
+  }
+  #breaker{
+      background-color: orangered;
+  }
+  .color{
+      color: orangered;
+  }
+  #about-content a{
+      color:orangered ;
+  }
+  .cv a button{
+      background: orangered;
+  }
+  .service-img img{
+    background: orangered;
+    box-shadow:0px 0px 0px 0px orangered ;
+  }
+  .service:hover .service-img img{
+    box-shadow:0px 0px 0px 400px orangered ;
+}
+.html-progress{
+    background: orangered;
+}
+.js-progress{
+    background: orangered;
+}
+.adobe-progress{
+    background: orangered;
+}
+.php-progress{
+    background: orangered;
+}
+.jquery-progress{
+    background: orangered;
+}
+.seo-progress{
+    background: orangered;
+}
+.portfolio-text h2{
+    color: orangered;
+}
+.portfolio-text button{
+    color: orangered;
+    border: 1.5px solid orangered;
+}
+.portfolio-text button::before{
+    background: orangered;
+}
+.portfolio-image img::before{
+    background: orangered;
+}
+.blog-date{
+    background: orangered;
+}
+form button{
+    background: orangered;
+}
+@media all and (max-width: 550px) and (min-width: 5px){
+    .service:hover .service-img img{
+        box-shadow:0px 0px 0px 0px orangered ;
+    }
+}
