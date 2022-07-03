@@ -1286,6 +1286,22 @@ form button{
     border-radius: 8px;
     transition: all .4s ease;
 }
+
+
+.success{
+    color: green;
+    font-weight: 700;
+    padding: 5px;
+    text-align: center;
+}
+.failed{
+    color: red;
+    font-weight: 700;
+    padding: 5px;
+    text-align: center;
+}
+
+
 form button:hover{
   opacity: 1;
 }

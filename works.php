@@ -37,7 +37,7 @@
   <div id="navigation-bar">
       <img src="images/thumbnail.PNG" alt="logo" class="img">
       <div class="menubar" style="position: absolute; right:7%; top: 15%;">
-        <a href="index.html"><img src="images/home.png" style="width: 65px; height: 65px;"></a>
+        <a href="index.php"><img src="images/home.png" style="width: 65px; height: 65px;"></a>
       </div>
   </div>
 

@@ -1,5 +1,4 @@
-<?php 
-php include 'send-email.php'; ?>
+<?php include 'send-email.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +44,7 @@ php include 'send-email.php'; ?>
             <div class="navigation-links">
                 <a href="#" data-text="HOME" id="home-link" >HOME</a>
                 <a href="#" data-text="ABOUT" id="about-link" >ABOUT</a>
-                <a href="works.html" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
+                <a href="works.php" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
                 <a href="#" data-text="CERTIFICATES" id="blog-link" >CERTIFICATES</a>
                 <a href="#" data-text="CONTACT" id="contact-link" >CONTACT</a>
                 
@@ -733,20 +732,20 @@ php include 'send-email.php'; ?>
                  <div class="form-header">
                      Message Me
                  </div>
-                 <form id="myForm" action="#">
+                 <form id="contact" action="" method="post">
                     <div class="input-line">
                         <input  id="name" type="text" placeholder="Name" class="input-name">
                         <input id="email" type="email" placeholder="Email"  class="input-name">
                     </div>
-                    <input type="text" id="subject" placeholder="Subject" class="input-subject">
-                    <textarea id ="body" class="input-textarea" placeholder="Message"></textarea>
-                    <div>
-                        <p class="success"> <?php echo $success;  ?></p>
-                        <p class="failed"> <?php echo $failed;  ?></p>
-                     </div>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" class="input-subject">
+                    <textarea id ="message" class="input-textarea" name="message" placeholder="Message"></textarea>
+                   
                      <button type="submit" name="submit" id="contact-submit" data-submit="...Sending">Send</button>
                  </form>
-               
+                 <div id="form-message-warning" class="mt-4"></div> 
+              <div id="form-message-success">
+                Your message was sent, thank you!
+              </div>
              </div>
             <!--Contact form-->
             <!--Contact information-->
