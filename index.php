@@ -44,7 +44,7 @@
             <div class="navigation-links">
                 <a href="#" data-text="HOME" id="home-link" >HOME</a>
                 <a href="#" data-text="ABOUT" id="about-link" >ABOUT</a>
-                <a href="works.php" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
+                <a href="works.html" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
                 <a href="#" data-text="CERTIFICATES" id="blog-link" >CERTIFICATES</a>
                 <a href="#" data-text="CONTACT" id="contact-link" >CONTACT</a>
                 
@@ -742,7 +742,7 @@
                    
                      <button type="submit" name="submit" id="contact-submit" data-submit="...Sending">Send</button>
                  </form>
-                 <div id="form-message-warning" class="mt-4"></div> 
+               <div id="form-message-warning" class="mt-4"></div> 
               <div id="form-message-success">
                 Your message was sent, thank you!
               </div>
