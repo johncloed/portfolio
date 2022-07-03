@@ -1,4 +1,4 @@
-<?php include 'send-email.php'; ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -728,11 +728,13 @@
         <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div></div>
         <div class="contact-content">
             <!--Contact form-->
+
              <div class="contact-form">
                  <div class="form-header">
                      Message Me
                  </div>
-                 <form id="contact" action="" method="post">
+                 
+                 <form id="contact" action="send-email.php" method="post">
                     <div class="input-line">
                         <input  id="name" type="text" placeholder="Name" class="input-name">
                         <input id="email" type="email" placeholder="Email"  class="input-name">
