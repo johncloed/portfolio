@@ -1496,7 +1496,7 @@ For devices with smaller width like mobile phone
         font-size: 40px;
     }
 
-    #loader{
+    #loader span{
         display: flex;
         align-items: center;
         justify-content: center;
