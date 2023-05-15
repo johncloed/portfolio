@@ -1524,7 +1524,7 @@ For devices with smaller width like mobile phone
         display: none;
     }
     #breaker{
-        height: 50vh;
+        height: 100%;
         width: 200%;
         background-color: orangered;
         opacity: 1;
@@ -1605,7 +1605,7 @@ For devices with smaller width like mobile phone
     }
     .about-img img{
         width: 280px;
-        height:280px;
+        height:320px;
         padding: 5px;
         border-radius: 10%;
     }
