@@ -407,7 +407,7 @@ a:hover {
     transform: scale(1.1);
 }
 #breaker{
-    height: 100vh;
+    height: 100%;
     width: 200%;
     background-color: orangered;
     opacity: 1;
@@ -1979,7 +1979,7 @@ for tabs and large phones
         display: none;
     }
     #breaker{
-        height: 50vh;
+        height: 100%;
         width: 200%;
         background-color: orangered;
         opacity: 1;
