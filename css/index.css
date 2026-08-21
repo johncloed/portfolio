@@ -173,6 +173,10 @@ body{
 .menubar:hover{
     opacity: 1;
 }
+.home-menu{
+    top: 16px;
+    right: 24px;
+}
 .close-first , .close-second{
  height: 2px;
  width: 35px;
@@ -252,6 +256,10 @@ body{
     text-decoration: none;
 }
 @media (max-width: 600px){
+    .home-menu{
+        top: 12px;
+        right: 16px;
+    }
     .home-button{
         max-width: calc(100vw - 32px);
         padding: 8px 14px;
@@ -299,7 +307,7 @@ body{
     z-index: 2;
     font-weight:700;
     font-family: poppins;
-    font-size: 65px;
+    font-size: clamp(38px, 5vw, 52px);
 }
 .header-content .secondline{
     z-index: 2;
@@ -481,6 +489,7 @@ a:hover {
     display: none;
     width: 100%;
     height: auto;
+    padding-top: 90px;
     overflow: hidden;
 }
 @keyframes scale{
@@ -529,6 +538,7 @@ a:hover {
     font-size: 20px;
     font-family: poppins;
     width: 60%;
+    margin-left: clamp(24px, 5vw, 80px);
     padding: 30px;
     font-weight: 400;
 }
@@ -549,7 +559,7 @@ a:hover {
 }
 .about-main{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     width: 100vw;
     height: auto;
@@ -1660,6 +1670,7 @@ For devices with smaller width like mobile phone
         font-size: 20px;
         font-family: poppins;
         width: 95%;
+        margin-left: 24px;
         padding: 10px;
         font-weight: 400;
     }
@@ -2116,6 +2127,7 @@ for tabs and large phones
         font-size: 40px;
         font-family: poppins;
         width: 95%;
+        margin-left: 24px;
         padding: 25px;
         font-weight: 400;
     }
@@ -2778,6 +2790,10 @@ for tabs and large phones
 }
 
 @media (max-width: 767.98px){
+    .about-first-paragraph{
+        width: calc(100% - 20px);
+        margin-left: 0;
+    }
     .contact-content{
         width: calc(100% - 32px);
         flex-direction: column;

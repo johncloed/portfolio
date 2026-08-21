@@ -90,6 +90,7 @@ $(function(){
     $('#about-link').on('click',function(){
       gsap.to('#navigation-content',0,{display:"none",delay:.7});
       gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
+      gsap.to('#navigation-bar',0,{position:"fixed",delay:.7});
   gsap.to('#header',0,{display:"none"});
 gsap.to('#blog',0,{display:"none"});
 gsap.to('#portfolio',0,{display:"none"});
@@ -104,6 +105,7 @@ gsap.to('#contact',0,{display:"none"});
  $('#contact-link').on('click',function(){
    gsap.to('#navigation-content',0,{display:"none",delay:.7});
    gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
+  gsap.to('#navigation-bar',0,{position:"fixed",delay:.7});
 gsap.to('#header',0,{display:"none"});
 gsap.to('#about',0,{display:"none"});
 gsap.to('#blog',0,{display:"none"});
@@ -118,6 +120,7 @@ gsap.to('#navigation-content',0,{display:'flex',delay:2});
 $('#portfolio-link').on('click',function(){
   gsap.to('#navigation-content',0,{display:"none",delay:.7});
   gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
+  gsap.to('#navigation-bar',0,{position:"fixed",delay:.7});
 gsap.to('#header',0,{display:"none"});
 gsap.to('#about',0,{display:"none"});
 gsap.to('#contact',0,{display:"none"});
@@ -135,6 +138,7 @@ gsap.to('#navigation-content',0,{display:'flex',delay:2});
 $('#blog-link').on('click',function(){
   gsap.to('#navigation-content',0,{display:"none",delay:.7});
   gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
+  gsap.to('#navigation-bar',0,{position:"fixed",delay:.7});
 gsap.to('#header',0,{display:"none"});
 gsap.to('#about',0,{display:"none"});
 gsap.to('#portfolio',0,{display:"none"});
@@ -149,6 +153,7 @@ gsap.to('#navigation-content',0,{display:'flex',delay:2});
 $('#home-link').on('click',function(){
   gsap.to('#navigation-content',0,{display:"none",delay:.7});
   gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
+  gsap.to('#navigation-bar',0,{position:"fixed",delay:.7});
 gsap.to('#header',0,{display:"none"});
 gsap.to('#about',0,{display:"none"});
 gsap.to('#portfolio',0,{display:"none"});
