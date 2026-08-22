@@ -96,7 +96,7 @@ $(function(){
       gsap.to('#navigation-bar',0,{position:"fixed",delay:.7});
   gsap.to('#header',0,{display:"none"});
 gsap.to('#blog',0,{display:"none"});
-gsap.to('#portfolio',0,{display:"none"});
+//gsap.to('#portfolio',0,{display:"none"});
    gsap.to('#breaker',0,{display:"block"});
    gsap.to('#breaker-two',0,{display:"block",delay:.1});
 gsap.to('#contact',0,{display:"none"});

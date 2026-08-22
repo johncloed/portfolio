@@ -2824,3 +2824,28 @@ for tabs and large phones
         overflow-wrap: anywhere;
     }
 }
+
+.accenture-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #A100FF !important;
+    text-decoration: none !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.accenture-link:hover {
+    color: #A100FF !important;
+    text-decoration: none !important;
+}
+
+.accenture-logo {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
